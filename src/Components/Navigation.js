@@ -2,6 +2,9 @@ import React from 'react'
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import avatar from '../img/avatar.jpg';
+import FacebookIcon from "@material-ui/icons/Facebook";
+import GithubIcon from "@material-ui/icons/GitHub";
+import { FaLinkedin } from "react-icons/fa";
 
 function Navigation() {
     return (
@@ -30,7 +33,17 @@ function Navigation() {
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2021 <b>Lorem Ipsum</b></p>
+            <div className="icons">
+          <a href="https://codepen.io/pen/" className="icon i-facebook">
+            <FacebookIcon />
+          </a>
+          <a href="https://codepen.io/pen/" className="icon i-github">
+            <GithubIcon />
+          </a>
+          <a href="https://codepen.io/pen/" className="icon i-linkedin">
+            <FaLinkedin />
+          </a>
+        </div>
             </footer>
         </NavigationStyled>
     )
@@ -100,14 +113,51 @@ const NavigationStyled = styled.nav`
     }
 
     footer{
+        padding-bottom: 1rem;
         border-top: 1px solid var(--border-color);
         width: 100%;
-        p{
-            padding: 1.3rem 0;
-            font-size: 1.1rem;
-            display: block;
-            text-align: center;
+        .icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      .icon {
+        border: 2px solid var(--border-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+        &:hover {
+          border: 2px solid var(--primary-color);
+          color: var(--primary-color);
         }
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
+        svg {
+          margin: 0.5rem;
+        }
+      }
+
+      .i-linkedin {
+        height: 45px;
+        width: 45px;
+        svg {
+          font-size: 22px;
+        }
+        &:hover {
+          border: 2px solid #0a66c2;
+          color: #0a66c2;
+        }
+      }
+      .i-github {
+        &:hover {
+          border: 2px solid #5f4687;
+          color: #5f4687;
+        }
+      }
+    }
     }
 `;
 export default Navigation;
