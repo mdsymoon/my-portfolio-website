@@ -1,7 +1,7 @@
 import rentalRides from '../img/portImages/Screenshot (13).png';
-import pionearBack from '../img/portImages/Screenshot (24).png';
+import pionearBank from '../img/portImages/Screenshot (24).png';
 import drPortal from '../img/portImages/Screenshot (20).png';
-import pinGeneretor from '../img/portImages/Screenshot (21).png';
+import pinGenerator from '../img/portImages/Screenshot (21).png';
 import beastProduct from '../img/portImages/Screenshot (22).png';
 import foodie from '../img/portImages/Screenshot (23).png';
 
@@ -10,8 +10,8 @@ const portfolios = [
         id: 1,
         category: 'React Js',
         image: beastProduct,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
+        github: 'https://github.com/mdsymoon/beast-product',
+        live: 'https://beast-product.web.app/',
         title: 'Beast Product ',
         text: 'React JS | Node JS | MongoDB'
     },
@@ -19,8 +19,8 @@ const portfolios = [
         id: 2,
         category: 'React Js',
         image: foodie,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
+        github: 'https://github.com/mdsymoon/foodie-client',
+        live: 'https://foodie-client-1.web.app/',
         title: 'Foodie',
         text: 'React JS | Node JS | MongoDB'
     },
@@ -28,8 +28,8 @@ const portfolios = [
         id: 3,
         category: 'React Js',
         image: rentalRides,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
+        github: 'https://github.com/mdsymoon/rental-rides',
+        live: 'https://rental-rides1.web.app/',
         title: 'Rental Rides',
         text: 'React JS | Node JS | MongoDB'
     },
@@ -37,26 +37,26 @@ const portfolios = [
         id: 4,
         category: 'React Js',
         image: drPortal,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
+        github: 'https://github.com/mdsymoon/doctor-portal-client',
+        live: 'https://doctor-s-portal-10.web.app/',
         title: 'Dr. Portal',
         text: 'React JS | Node JS | MongoDB'
     },
     {
         id: 5,
         category: 'Javascript',
-        image: pinGeneretor,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
+        image: pinGenerator,
+        github: 'https://github.com/mdsymoon/pin-generator',
+        live: 'https://mdsymoon.github.io/pin-generator/',
         title: 'Pin Generator',
         text: 'HTML | CSS | Javascript'
     },
     {
         id: 6,
         category: 'Javascript',
-        image:  pionearBack,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
+        image:  pionearBank,
+        github: 'https://github.com/mdsymoon/pionear-bank',
+        live: 'https://mdsymoon.github.io/pionear-bank/',
         title: 'Pionear Bank',
         text: 'HTML | CSS | Javascript'
     }
