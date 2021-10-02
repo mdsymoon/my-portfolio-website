@@ -76,6 +76,7 @@ function ContactPage() {
 
 const ContactPageStyled = styled.section`
   .contact-section {
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;

@@ -18,12 +18,15 @@ function ContactItem({ title, icon, cont1, cont2 }) {
 
 const ContactItemStyled = styled.div`
   .contact-item {
-    width: 98%;
+    width: 99%;
     padding: 1.5rem 2rem;
     background-color: var(--background-dark-grey);
     display: flex;
     align-items: center;
     margin-bottom: 2.5rem;
+    @media screen and (max-width: 470px){
+      padding: 1.5rem .8rem;
+    }
 
     .left-content {
       padding: 1.5rem;

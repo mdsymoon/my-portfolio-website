@@ -10,7 +10,7 @@ function ImageSection() {
                 <img src={resume} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Lorem Ipsum</span></h4>
+                <h4>I am <span>Md. Symoon</span></h4>
                 <p className="paragraph">
                 Hello, my name is Md. Symoon. I’m a web developer. I always use modern technology to develop websites. For the front-end I use React Js, Material UI, React-Bootstrap and for the back-end I use Node Js, Express Js, MongoDB. Currently, I will learn React Native to build Mobile Applications.
                     

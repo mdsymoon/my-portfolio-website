@@ -104,10 +104,7 @@ h1{
     font-weight: bold;
     span{
         font-size: 4rem;
-        @media screen and (max-width: 502px){
-            font-size: 1rem;
-            
-        }
+        
         @media screen and (max-width: 1500px){
             font-size: 3.4rem;
            
@@ -122,11 +119,19 @@ h1{
         }
         @media screen and (max-width: 750px){
             font-size: 2rem;
+            
+        }
+        @media screen and (max-width: 570px){
+            font-size: 1.6rem;
+            
+        }
+        @media screen and (max-width: 502px){
+            font-size: 1.2rem;
             
         }
     }
     @media screen and (max-width: 502px){
-        font-size:1rem;
+        font-size:.5rem;
         }
         @media screen and (max-width: 1500px){
             font-size: 3.4rem;
@@ -142,6 +147,10 @@ h1{
         }
         @media screen and (max-width: 750px){
             font-size: 2rem;
+            
+        }
+        @media screen and (max-width: 502px){
+            font-size: 1.3rem;
             
         }
 }
@@ -183,7 +192,7 @@ h6{
 
   //Nav Toggler
   .ham-burger-menu{
-      position: absolute;
+      position: fixed;
       right: 5%;
       top: 3%; 
       display: none;
@@ -196,6 +205,7 @@ h6{
     .nav-toggle{
         transform: translateX(0);
         z-index: 20;
+      
     }
   @media screen and (max-width:1200px){
     .ham-burger-menu{
