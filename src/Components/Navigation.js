@@ -147,7 +147,7 @@ const NavigationStyled = styled.nav`
         &:not(:last-child) {
           margin-right: 1rem;
           @media screen and (max-width: 470px) {
-            margin-right: 0.5rem;
+            margin-right: 0.4rem;
           }
         }
         svg {
@@ -156,8 +156,8 @@ const NavigationStyled = styled.nav`
       }
 
       .i-linkedin {
-        height: 45px;
-        width: 45px;
+        height: 46px;
+        width: 47px;
         svg {
           font-size: 22px;
         }

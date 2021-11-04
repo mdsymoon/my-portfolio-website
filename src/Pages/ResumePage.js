@@ -7,6 +7,7 @@ function ResumePage() {
     return (
         <MainLayout>
             <Skills />
+            
             <Resume />
         </MainLayout>
     )
