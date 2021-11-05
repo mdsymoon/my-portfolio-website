@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import avatar from "../img/avatar.jpg";
+import avatar from "../img/PicsArt_11-04-03.24.56.jpg";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GithubIcon from "@material-ui/icons/GitHub";
 import { FaLinkedin } from "react-icons/fa";
@@ -46,13 +46,13 @@ function Navigation() {
       </ul>
       <footer className="footer">
         <div className="icons">
-          <a href="https://codepen.io/pen/" className="icon i-facebook">
+          <a href="https://www.facebook.com/sai.moon.18659041" target="blank" className="icon i-facebook">
             <FacebookIcon />
           </a>
-          <a href="https://codepen.io/pen/" className="icon i-github">
+          <a href="https://github.com/mdsymoon" target="blank" className="icon i-github">
             <GithubIcon />
           </a>
-          <a href="https://codepen.io/pen/" className="icon i-linkedin">
+          <a href="https://www.linkedin.com/in/md-symoon-a34bab21a/" target="blank" className="icon i-linkedin">
             <FaLinkedin />
           </a>
         </div>

@@ -29,9 +29,7 @@ function HomePage() {
           </span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil
-          voluptates ea dolore vel repellat? Quia tenetur non quam
-          exercitationem. Lorem ipsum dolor sit amet.
+          Hello, my name is Md Symoon. I’m a web developer. I always use modern technology to develop websites. For the front-end, I use React Js, Material UI, React-Bootstrap and for the back-end I use Node Js, Express Js, MongoDB. Currently, I’m leaning some relevant new technologies.
         </p>
       </div>
     </HomePageStyled>

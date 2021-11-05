@@ -64,8 +64,8 @@ function ContactPage() {
             <ContactItem
               title={"Address"}
               icon={location}
-              cont1={"Halishahar 'A' block , Chattagram"}
-              cont2={"Bangladesh"}
+              cont1={"Chattagram, Bangladesh"}
+              
             />
           </div>
         </InnerLayout>

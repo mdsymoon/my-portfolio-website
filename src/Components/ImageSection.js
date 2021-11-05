@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import resume from '../img/resume.jpg';
+import resume from '../img/PicsArt_11-04-03.34.54.jpg';
 import PrimaryButton from './PrimaryButton';
 
 function ImageSection() {
@@ -10,11 +10,11 @@ function ImageSection() {
                 <img src={resume} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Md. Symoon</span></h4>
-                <p className="paragraph">
+                <h4 style={{marginBottom:"20px"}}> <span>Md. Symoon</span></h4>
+                {/* <p className="paragraph">
                 Hello, my name is Md. Symoon. I’m a web developer. I always use modern technology to develop websites. For the front-end I use React Js, Material UI, React-Bootstrap and for the back-end I use Node Js, Express Js, MongoDB. Currently, I will learn React Native to build Mobile Applications.
                     
-                </p>
+                </p> */}
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
@@ -34,8 +34,9 @@ function ImageSection() {
                     </div>
                 </div>
                 <div className='resume'>
+                    <a href="/resume/Md-Symoon-Resume.pdf" download><PrimaryButton href='https://github.com/mdsymoon'  title={'Resume Download' }></PrimaryButton></a>
                
-                <PrimaryButton  title={'Resume Download' }></PrimaryButton>
+                
                 </div>
                 
             </div>
@@ -97,3 +98,4 @@ const ImageSectionStyled = styled.div`
     }
 `;
 export default ImageSection;
+

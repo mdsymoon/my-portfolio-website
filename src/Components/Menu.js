@@ -143,15 +143,15 @@ const MenuItemStyled = styled.div`
           }
         }
         &::before {
-          height: calc(100% - 37%);
+          height: calc(100% - 47%);
           width: calc(100% - 4%);
           background-color: #ddd;
           opacity: 0.9;
           transform-origin: left;
           transition: all 0.4s ease-in-out;
-          @media screen and (max-width:400px){
-            height: calc(100% - 48%);
-          }
+          /* @media screen and (max-width:400px){
+            height: calc(100% - 43%);
+          } */
         }
       }
     }
