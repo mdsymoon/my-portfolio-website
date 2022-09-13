@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import resume from '../img/PicsArt_11-04-03.34.54.jpg';
+import resume from '../img/about-me-page_myPhoto.jpg';
 import PrimaryButton from './PrimaryButton';
 
 function ImageSection() {
@@ -11,10 +11,7 @@ function ImageSection() {
             </div>
             <div className="right-content">
                 <h4 style={{marginBottom:"20px"}}> <span>Md. Symoon</span></h4>
-                {/* <p className="paragraph">
-                Hello, my name is Md. Symoon. I’m a web developer. I always use modern technology to develop websites. For the front-end I use React Js, Material UI, React-Bootstrap and for the back-end I use Node Js, Express Js, MongoDB. Currently, I will learn React Native to build Mobile Applications.
-                    
-                </p> */}
+                
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
@@ -48,6 +45,7 @@ function ImageSection() {
 const ImageSectionStyled = styled.div`
     margin-top: 5rem;
     display: flex;
+    align-items: center;
     @media screen and (max-width:1000px){
         flex-direction: column;
         .left-content{

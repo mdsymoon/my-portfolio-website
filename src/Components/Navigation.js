@@ -6,7 +6,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import GithubIcon from "@material-ui/icons/GitHub";
 import { FaLinkedin } from "react-icons/fa";
 
-function Navigation() {
+function Navigation({navToggle, setNavToggle}) {
   return (
     <NavigationStyled>
       <div className="avatar">
@@ -14,32 +14,32 @@ function Navigation() {
       </div>
       <ul className="nav-items">
         <li className="nav-item">
-          <NavLink to="/" activeClassName="active-class" exact>
+          <NavLink onClick={() => setNavToggle(!navToggle)} to="/" activeClassName="active-class" exact>
             Home
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/about" activeClassName="active-class" exact>
+          <NavLink onClick={() => setNavToggle(!navToggle)} to="/about" activeClassName="active-class" exact>
             About
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/resume" activeClassName="active-class" exact>
+          <NavLink onClick={() => setNavToggle(!navToggle)} to="/resume" activeClassName="active-class" exact>
             Resume
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/portfolios" activeClassName="active-class" exact>
+          <NavLink onClick={() => setNavToggle(!navToggle)} to="/portfolios" activeClassName="active-class" exact>
             Portfolios
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/blogs" activeClassName="active-class" exact>
+          <NavLink onClick={() => setNavToggle(!navToggle)} to="/blogs" activeClassName="active-class" exact>
             Blogs
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/contact" activeClassName="active-class" exact>
+          <NavLink onClick={() => setNavToggle(!navToggle)} to="/contact" activeClassName="active-class" exact>
             Contact
           </NavLink>
         </li>
